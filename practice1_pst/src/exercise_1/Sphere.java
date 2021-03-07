@@ -3,17 +3,17 @@ package exercise_1;
 public class Sphere {
 	
 	private String name;
-	private Double diameter;
+	private double diameter;
 	
-	public Sphere (Double diameter) {
+	public Sphere (double diameter) {
 		this.diameter = diameter;
 	}
 
-	public Double getDiameter() {
+	public double getDiameter() {
 		return diameter;
 	}
 
-	public void setDiameter(Double diameter) {
+	public void setDiameter(double diameter) {
 		this.diameter = diameter;
 	}
 	
@@ -25,11 +25,11 @@ public class Sphere {
 		this.name = name;
 	}
 
-	public double getVolumeOfSphere(Double diameter) {
+	public double getVolumeOfSphere(double diameter) {
 		return this.calculateVolumeSphere(diameter);
 	}
 	
-	private double calculateVolumeSphere(Double diameter) {
+	private double calculateVolumeSphere(double diameter) {
 		double volume = 0;
 		volume = 4*Math.PI*Math.pow(diameter/2,2);
 		return volume;
