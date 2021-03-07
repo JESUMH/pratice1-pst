@@ -1,4 +1,4 @@
-package exercise_2.exercise_3;
+package exercise_3;
 
 public class Box {
 	
